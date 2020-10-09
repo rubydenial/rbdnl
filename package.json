@@ -1,0 +1,25 @@
+{
+  "name": "rbdnl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubydenial/rbdnl.git"
+  },
+  "keywords": [
+    "rbdnl"
+  ],
+  "author": "Rubydenial",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rubydenial/rbdnl/issues"
+  },
+  "homepage": "https://github.com/rubydenial/rbdnl#readme",
+  "bin": {
+    "rd": "index.js"
+  }
+}
