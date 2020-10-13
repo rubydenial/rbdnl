@@ -11,7 +11,8 @@
     "url": "git+https://github.com/rubydenial/rbdnl.git"
   },
   "keywords": [
-    "rbdnl"
+    "rbdnl",
+    "Rubydenial"
   ],
   "author": "Rubydenial",
   "license": "ISC",
