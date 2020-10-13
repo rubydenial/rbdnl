@@ -3,6 +3,13 @@ const pkgJSON = require('./package');
 const welcome = require('cli-welcome');
 const chalk = require('chalk');
 const log = console.log;
+const ls = require('log-symbols');
+
+//alerts
+const success = chalk.green;
+const info = chalk.blue;
+const warning = chalk.hex('#ffd400');
+const error = chalk.red.bold;
 
 welcome({
   title: pkgJSON.name,
@@ -23,6 +30,11 @@ ${chalk.hex('#00a98f').bold('My test app')}
 
 🐜 ${chalk.italic('-Bug fixing;')}
 😎 -Joy results;
-
 `);
 
+log(`
+${ls.success} ${success(' SUCCESS ')}: Thank for checking out my CLI.
+${ls.info} ${info(' INFO ')}: I'm creating a course on NodeCLI.com
+${ls.warning} ${warning(' WARNING ')}: Please don't copy me. Be yourself.
+${ls.error} ${error(' ERROR ')}: I'm on vacation. Contact me next week. 
+`);
