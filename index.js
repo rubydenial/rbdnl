@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 const pkgJSON = require('./package');
 const welcome = require('cli-welcome');
+const chalk = require('chalk');
+const log = console.log;
 
 welcome({
   title: pkgJSON.name,
@@ -13,13 +15,13 @@ welcome({
   clear: true,
 });
 
-console.log(`
-Rubydenial 
+log(`
+${chalk.bgBlue.hex('#25d366').bold(' Rubydenial ')} 
 Rb-Dnl
 
-My test app
+${chalk.hex('#00a98f').bold('My test app')}
 
-🐜 -Bug fixing;
+🐜 ${chalk.italic('-Bug fixing;')}
 😎 -Joy results;
 
 `);
