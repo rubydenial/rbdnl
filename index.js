@@ -13,7 +13,7 @@ const error = chalk.red.bold;
 
 welcome({
   title: pkgJSON.name,
-  tagLine:  'Get to know Rubydenial',
+  tagLine: 'Get to know Rubydenial',
   version: pkgJSON.version,
   description: pkgJSON.description,
   bgColor: `#FADC00`,
@@ -38,3 +38,4 @@ ${ls.info} ${info(' INFO ')}: I'm creating a course on NodeCLI.com
 ${ls.warning} ${warning(' WARNING ')}: Please don't copy me. Be yourself.
 ${ls.error} ${error(' ERROR ')}: I'm on vacation. Contact me next week. 
 `);
+
