@@ -2,7 +2,7 @@
   "name": "rbdnl",
   "version": "3.1.1",
   "description": "Get to know Rubydenial via `npx rbdnl`",
-  "main": "index.js",
+  "main": "pack.js",
   "scripts": {
     "test": "node test.js"
   },
